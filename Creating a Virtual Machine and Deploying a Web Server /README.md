@@ -27,7 +27,7 @@ Now that we know what a resource group is let's begin by creating one that will 
 
 ##### Follow the video walkthrough:
 
-![](videos/1.mp4)
+https://github.com/DeRuina/AzureProjects/assets/81315494/0ee2d15d-137d-4120-bcc3-ea50126aa7bf
 
 # **Step 2: Creating a Virtual Network and a Subnet**
 
@@ -45,7 +45,7 @@ Again you can name them however you want, I named the Virtual Network: VNET-VMP 
 
 ##### Follow the video walkthrough:
 
-![](videos/2.mp4)
+https://github.com/DeRuina/AzureProjects/assets/81315494/203d07a3-5cc7-4710-b54c-1596c93352ba
 
 # **Step 3: Protecting the subnet using a Network Security Group**
 
@@ -63,7 +63,7 @@ Azure already created some inbound and outbound rules for us. Specifically, we c
 
 ##### Follow the video walkthrough:
 
-![](videos/3.mp4)
+https://github.com/DeRuina/AzureProjects/assets/81315494/f9f34009-330b-4f33-a4a8-fb16f888f154
 
 # **Step 4: Deploying Bastion to connect to our Virtual Machine**
 
@@ -82,7 +82,7 @@ Now that we have a subnet we can create a Bastion instance. I named it BASTION-V
 
 ##### Follow the video walkthrough:
 
-![](videos/4.mp4)
+https://github.com/DeRuina/AzureProjects/assets/81315494/4367b28c-a013-4b1c-a3c4-b06d400a5a9f
 
 # **Step 5: Creating an Ubuntu Server Virtual Machine**
 
@@ -103,8 +103,8 @@ In Networking change the "Public IP" to None*.  Finally **make sure to download*
 
 ##### Follow the video walkthroughs:
 
-![](videos/5.mp4)
-![](videos/6.mp4)
+https://github.com/DeRuina/AzureProjects/assets/81315494/1ac50884-8615-4327-a5ab-1cb1983cc300
+https://github.com/DeRuina/AzureProjects/assets/81315494/cfcd3f8d-2b3f-4739-9e4b-f57d17de58dd
 
 # **Step 6: Installing Nextcloud by connecting via SSH using Bastion**
 
@@ -120,10 +120,10 @@ We are now connected to our Virtual Machine using SSH via Bastion. Now let's ins
 
 ##### Follow the video walkthroughs:
 
-![](videos/7.mp4)
-![](videos/7.5.mp4)
-![](videos/8.mp4)
-![](videos/9.mp4)
+https://github.com/DeRuina/AzureProjects/assets/81315494/e70ae577-129a-4662-af19-c41dd2ec931c
+https://github.com/DeRuina/AzureProjects/assets/81315494/3f9d45a4-6c3a-4949-8c55-d4b26ffaec99
+https://github.com/DeRuina/AzureProjects/assets/81315494/9cdf7cbe-7bce-4a0c-97a2-71f9683354dd
+https://github.com/DeRuina/AzureProjects/assets/81315494/7bed21bd-fbb6-4f42-8ca2-8941c62c17b5
 
 # **Step 7: Publishing an IP**
 
@@ -133,8 +133,8 @@ As you can see in the second video we now have a public IP. If we try to copy it
 
 ##### Follow the video walkthroughs: 
 
-![](videos/10.mp4)
-![](videos/11.mp4)
+https://github.com/DeRuina/AzureProjects/assets/81315494/7d9342be-4843-41ef-a6ab-ba94dea07d45
+https://github.com/DeRuina/AzureProjects/assets/81315494/c4116c2c-4e0b-4008-8225-6d6c1af7ff36
 
 # **Step 8: Adding an Inbound Port Rule**
 
@@ -144,9 +144,8 @@ Now that the rule has been created, let’s go and copy the public address again
 
 ##### Follow the video walkthrough:
 
-![](videos/12.mp4)
+https://github.com/DeRuina/AzureProjects/assets/81315494/63c174dd-65cf-402c-a409-be597430ba18
 ![](videos/Nextcloud1.jpg)
-
 
 # **Step 9: Creating a DNS label**
 
@@ -156,11 +155,10 @@ And that's it! Now just go to a browser and type your DNS. mine was `https://dea
 
 ##### Follow the video walkthrough:
 
-![](videos/13.mp4)
-![](videos/14.mp4)
+https://github.com/DeRuina/AzureProjects/assets/81315494/278572e4-7656-4b3c-a6d8-6636a5c89c3e
+https://github.com/DeRuina/AzureProjects/assets/81315494/26e528dd-bf18-4017-8042-31ca2af12659
 ![](videos/nextcloud3.jpg)
 ![](videos/nextcloud2.png)
-
 
 # **Step 10: If You're Not Using It - DELETE IT! IT COSTS MONEY**!
 
